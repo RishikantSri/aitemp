@@ -16,3 +16,7 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+
+# Git will ignore this folder, made its zip file frontend.zip.
+# extact this on the same folder 
+/public/frontend
