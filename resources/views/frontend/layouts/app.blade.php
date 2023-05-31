@@ -36,6 +36,8 @@
     
     @include('frontend.layouts.spinner')
     @include('frontend.layouts.menu')
+    @include('frontend.layouts.searchmodal')
+
     @yield('content')
     @include('frontend.layouts.footer')
 
