@@ -15,7 +15,7 @@
                     <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
                     <a href="{{ route('services') }} " class="nav-item nav-link">Services</a>
                     <a href="{{ route('projects') }} " class="nav-item nav-link">Projects</a>
-                    <div class="nav-item dropdown">
+                    {{-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Others</a>
                         <div class="dropdown-menu bg-light mt-2">
                             <a href="{{ route('features') }} " class="dropdown-item">Features</a>
@@ -24,8 +24,9 @@
                             <a href="{{ route('testimonial') }} " class="dropdown-item">Testimonial</a>
                            
                         </div>
-                    </div>
+                    </div> --}}
                     <a href="{{ route('contact') }} " class="nav-item nav-link">Contact</a>
+                    <a href="{{ route('contact') }} " class="nav-item nav-link">Technical Notes</a>
                 </div>
                 <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
                     data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
