@@ -53,6 +53,11 @@ use Illuminate\Support\Facades\Route;
         return view('frontend.testimonials');
     })->name('testimonial');
 
+    Route::get('/technicalnotes', function () {
+        return view('frontend.technicalnotes');
+    })->name('technicalnotes');
+
+
 
     Route::post('/contact-form', [App\Http\Controllers\Frontend\ContactController::class, 'storeContactForm'])->name('contact-form.store');
 

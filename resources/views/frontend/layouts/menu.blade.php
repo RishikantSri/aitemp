@@ -26,7 +26,7 @@
                         </div>
                     </div> --}}
                     <a href="{{ route('contact') }} " class="nav-item nav-link">Contact</a>
-                    <a href="{{ route('contact') }} " class="nav-item nav-link">Technical Notes</a>
+                    <a href="{{ route('technicalnotes') }} " class="nav-item nav-link">Technical Notes</a>
                 </div>
                 <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
                     data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
