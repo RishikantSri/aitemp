@@ -23,3 +23,4 @@ Credits :
 
 - **[Laravel ]( https://www.laravel.com/)**
 - **[Template  Designed By HTML Codex ]( https://htmlcodex.com/)**
+ **[Developed By Rishikant ]( https://www.rishikantsri.online/)**

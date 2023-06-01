@@ -78,6 +78,10 @@
 <li>
 <strong><a href="https://htmlcodex.com/">Template  Designed By HTML Codex </a></strong>
 </li>
+<li>
+<strong><a href="https://www.rishikantsri.online/">Developed By Rishikant </a></strong>
+</li>
+
 </ul>
             
             </div>
