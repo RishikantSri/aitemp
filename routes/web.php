@@ -54,7 +54,5 @@ Route::get('/testimonial', function () {
 })->name('testimonial');
 
 
-
-
-
+Route::post('/contact-form', [App\Http\Controllers\Frontend\ContactController::class, 'storeContactForm'])->name('contact-form.store');
 

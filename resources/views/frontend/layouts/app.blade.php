@@ -56,6 +56,7 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('frontend/js/main.js') }}"></script>
+    @stack('scripts_footer')
 </body>
 
 </html>
